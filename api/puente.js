@@ -8,7 +8,7 @@ export default async function handler(req, res) {
   // Validar grupo exacto
   if (
     !body.group ||
-    body.group.name !== 'Generando valor con Datos IA'
+    body.group.name !== 'Generando valor con Datos & IA'
   ) {
     return res.status(200).send('Evento ignorado: tipo o grupo no válido.');
   }
